@@ -1,0 +1,168 @@
+
+
+*******************************************************************************
+Wed Apr 13 10:32:54 2022
+
+
+FIT:    data read from filename using ($1):2
+        format = x:z
+        x range restricted to [0.100000 : 0.270000]
+BREAK: No data to fit
+
+*******************************************************************************
+Wed Apr 13 10:33:21 2022
+
+
+FIT:    data read from filename using ($1):2
+        format = x:z
+        #datapoints = 4896
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = b + n*exp(x*u)
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 4896
+x               = -nan           
+z               = 0.001474       
+
+Current set of parameters
+=========================
+b               = -nan           
+n               = nan            
+u               = nan            
+
+BREAK: Function evaluation yields NaN ("not a number")
+
+*******************************************************************************
+Wed Apr 13 10:33:46 2022
+
+
+FIT:    data read from filename using ($1*1000000):2
+        format = x:z
+        #datapoints = 4896
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = b + n*exp(x*u)
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 4896
+x               = 0.0001         
+z               = 0.001474       
+
+Current set of parameters
+=========================
+b               = 0.0001         
+n               = 0.001          
+u               = 23000          
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Wed Apr 13 10:35:52 2022
+
+
+FIT:    data read from filename using ($1*1000000):2
+        format = x:z
+        x range restricted to [10.0000 : 270.000]
+        #datapoints = 44
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = b + n*exp(x*u)
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 44
+x               = 0.0001         
+z               = 0.001474       
+
+Current set of parameters
+=========================
+b               = 0.0001         
+n               = 0.001          
+u               = 23000          
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Wed Apr 13 10:36:39 2022
+
+
+FIT:    data read from filename using ($1*1000000):2
+        format = x:z
+        x range restricted to [10.0000 : 270.000]
+        #datapoints = 44
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = b + n*exp(x*u)
+fitted parameters initialized with current variable values
+
+   6 2.8082897973e-05  -6.88e-01  5.20e-07    2.158881e-04   1.403434e-03   2.259120e-02
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.80829e-05
+rel. change during last iteration : -6.8817e-06
+
+degrees of freedom    (FIT_NDF)                        : 41
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000827616
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.84949e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+b               = 0.000215888      +/- 0.0002103    (97.42%)
+n               = 0.00140343       +/- 1.476e-05    (1.052%)
+u               = 0.0225912        +/- 4.001e-05    (0.1771%)
+
+correlation matrix of the fit parameters:
+                b      n      u      
+b               1.000 
+n              -0.716  1.000 
+u               0.687 -0.997  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 10:36:51 2022
+
+
+FIT:    data read from filename using ($1*1000000):2
+        format = x:z
+        x range restricted to [10.0000 : 270.000]
+        #datapoints = 44
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = b + n*exp(x*u)
+fitted parameters initialized with current variable values
+
+   6 2.8082897973e-05  -6.88e-01  5.20e-07    2.158881e-04   1.403434e-03   2.259120e-02
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 2.80829e-05
+rel. change during last iteration : -6.8817e-06
+
+degrees of freedom    (FIT_NDF)                        : 41
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000827616
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.84949e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+b               = 0.000215888      +/- 0.0002103    (97.42%)
+n               = 0.00140343       +/- 1.476e-05    (1.052%)
+u               = 0.0225912        +/- 4.001e-05    (0.1771%)
+
+correlation matrix of the fit parameters:
+                b      n      u      
+b               1.000 
+n              -0.716  1.000 
+u               0.687 -0.997  1.000 
